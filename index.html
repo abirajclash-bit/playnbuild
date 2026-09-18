@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PlayNBuild — Play. Think. Learn. Build.</title>
+<meta name="description" content="Puzzles, science, interesting facts and concepts from PlayNBuild.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="container nav">
+<a class="brand" href="#"><span class="mark">✦</span><span><b>Play</b><strong>NBuild</strong><small>PLAY · THINK · LEARN · BUILD</small></span></a>
+<nav><a class="active" href="#home">Home</a><a href="#challenges">Challenges</a><a href="#science">Science</a><a href="#facts">Facts</a><a href="#concepts">Concepts</a><a href="#youtube">YouTube</a><a href="#about">About</a><a class="sub" href="https://www.youtube.com/@R.Abiraj" target="_blank">▶ Subscribe</a></nav>
+<button class="menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+</div></header>
+
+<section class="hero" id="home"><div class="container hero-in">
+<div class="hero-copy"><p class="eyebrow">CURIOUS? YOU'RE IN THE RIGHT PLACE.</p><h1>Play. <span>Think.</span> Learn. Build.</h1>
+<p>Puzzles, scientific curiosities, interesting facts and concepts — inspired by the PlayNBuild YouTube channel.</p>
+<div class="actions"><a class="btn red" href="https://www.youtube.com/@R.Abiraj" target="_blank">▶ Watch on YouTube</a><a class="btn white" href="#challenges">Explore Challenges →</a></div>
+<p class="scribble">↗ Same curiosity. More to explore!</p></div>
+<div class="bulb">💡</div></div></section>
+
+<section class="quick container"><div>🎮 <b>Fun Challenges</b><small>Test your logic & creativity</small></div><div>⚗️ <b>Science Concepts</b><small>Understand the world around you</small></div><div>💡 <b>Interesting Facts</b><small>Surprising things you didn't know</small></div><div>▶️ <b>YouTube Videos</b><small>Watch, learn and explore</small></div></section>
+
+<section class="section container" id="challenges"><div class="heading"><div><p class="eyebrow">PUT YOUR BRAIN TO WORK</p><h2>Challenges</h2></div><span id="challengeCount" class="muted"></span></div><div id="challengeList" class="challenge-grid"><div class="loading">Loading challenges…</div></div></section>
+<section class="section container" id="science"><div class="heading"><div><p class="eyebrow">MAKE SCIENCE SIMPLE</p><h2>Science</h2></div></div><div id="scienceList" class="article-grid"></div></section>
+<section class="section container" id="facts"><div class="heading"><div><p class="eyebrow">DID YOU KNOW?</p><h2>Interesting Facts</h2></div></div><div id="factsList" class="fact-grid"></div></section>
+<section class="section container" id="concepts"><div class="heading"><div><p class="eyebrow">CONCEPTS CORNER</p><h2>Concepts</h2></div></div><div id="conceptsList" class="concept-grid"></div></section>
+
+<section class="section container" id="youtube"><div class="heading"><div><p class="eyebrow">WATCH · LEARN · EXPLORE</p><h2>Latest from YouTube</h2></div><a class="redlink" href="https://www.youtube.com/@R.Abiraj" target="_blank">View Channel →</a></div><div id="videoList" class="video-grid"></div></section>
+
+<section class="about section" id="about"><div class="container about-in"><div><p class="eyebrow">ABOUT PLAYNBUILD</p><h2>Small challenges. Big ideas.</h2></div><p>PlayNBuild is a place for the curious — bringing together puzzles, science ideas, surprising facts and concepts behind the videos. Explore, think, learn and build your own understanding.</p></div></section>
+<footer><div class="container foot"><div><b>Play<span>NBuild</span></b><small>Play · Think · Learn · Build</small></div><div><a href="#challenges">Challenges</a><a href="#science">Science</a><a href="#facts">Facts</a><a href="#concepts">Concepts</a></div><a href="https://www.youtube.com/@R.Abiraj" target="_blank">YouTube ↗</a></div><div class="container copy">© 2026 PlayNBuild. Built for curiosity.</div></footer>
+<script src="config.js"></script><script src="app.js"></script>
+</body></html>
